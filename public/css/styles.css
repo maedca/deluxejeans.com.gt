@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'century_gothic';
+    src: url('../fonts/Centurygothic.eot'); 
+    src: url('../fonts/Centurygothic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Centurygothic.woff') format('woff'),
+         url('../fonts/Centurygothic.ttf') format('truetype'),
+         url('../fonts/Centurygothic.svg#century_gothic') format('svg');
+    font-weight: normal;  
+    font-style: normal;
+}
+
+body{
+    background: #FAF9F9;
+    font-family: 'century_gothic', sans-serif!important;
+    font-size: 16px;
+    color: #575756; 
+    padding-top: 90px;
+}
+
+.logo-custom {
+    max-height: 50px;
+}
+
+.bandera{
+    width: 30px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFF;  
+    padding: 25px 10px;
+    border-bottom: 4px solid #9CD2CA; 
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #f1f1f1;
+    border-bottom: 4px solid #eee;
+}
+
+li > .seleccionada {
+    color: #F60!important;
+    border-bottom: 4px solid #eee!important;
+}  
+
+.navbar-social-media-phone{
+	display: none;	
+} 
+
+.navbar-social-media li a{
+	font-size: 20px;	
+	padding: 23px 10px!important;
+}
+
+.navbar-social-media li a:hover{
+	border-bottom: 4px solid transparent!important;
+}
+
+#banner{
+    margin-top: 90px;
+}
+
+#respuesta{
+    text-align: center;
+    margin: auto;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+#galeria img{
+    width: 25%;
+    margin: 0px;
+}
+
+.footer{
+    background: #9CD2CA;
+    color: #fff;
+}
+
+.container-footer{
+    padding: 30px;
+}
+
+.justify-footer{
+    text-align: right;
+}
+
+.line_inf{
+    border-bottom: 1px solid white;
+    font-size: 1.3em;
+    padding-bottom: .5em; 
+    width: 200px  
+}
+.footer-list{
+    text-align: left;
+    color: #F2F2F2; 
+    display: inline-block;
+    margin: 0
+}
+.footer-list:first-child{
+    margin-right: 3%;
+}
+
+.figure{
+    text-align: center;
+}
+
+.figure img{
+    width: 70%;
+
+}
+
+.img-trabaja{
+    text-align: center;
+}
+.img-trabaja img{
+    width: 60%;
+}
+
+.campo-diligencia{
+    display: none;
+}
+
+#ir-arriba{
+    border-radius: 50%;
+    color: #2dc0aa;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+#ideomas{
+    position: fixed;
+    right: 0px;
+    top: 200px;
+    background: #9CD2CA;
+    padding: 0px;
+    width: 65px;
+    z-index: 99999999;
+}
+
+#ideomas ul{
+    list-style: none;
+}
+
+#ideomas li{
+    list-style-type: none;
+    margin-left: -35px;
+}
+
+#ideomas li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown-menu-ideomas{
+    min-width: 100%;
+}
+
+.dropdown-menu-ideomas > li > a{
+    padding: 1 0!important;
+}
+
+footer .footer-list ul{
+    list-style-type: none;
+    display: block;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-list  ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #F2F2F2;
+}
+
+.pmd a{
+    text-decoration: none;
+}
+
+.pmd a img{
+    width: 90px;
+}
+
+#mapa,.geo{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.oculto{
+    display: none;
+}
+
+@media screen and (max-width: 1199px) {
+    .navbar-inverse .navbar-nav > li > a, .dropdown-menu > li > a{
+        text-align: center;
+        padding: 28px 5px;
+        font-size: 14px!important;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .navbar-inverse .navbar-nav > li > a, .dropdown-menu > li > a{
+        text-align: center;
+        padding: 28px 5px;
+        font-size: 10px!important;
+    }
+
+    .dropdown-menu-ideomas{
+        width: 90px!important;
+    }
+
+    .logo-custom {
+        max-height: 40px;
+    }
+
+    .navbar-social-media-phone li a{
+        font-size: 12px!important;  
+        padding: 15px 10px!important;
+    }
+
+    .campos-gris{
+        margin-bottom: 15px;
+    }
+
+    .campos-table{
+        display: none;
+    }
+
+    .campo-diligencia{
+        display: inline-block;
+    }
+
+}
+
+@media (max-width: 959px) {
+    .dropdown-menu-ideomas{
+        width: 70px!important;
+    }
+}
+
+@media (max-width: 767px) {
+	.logo-custom {
+	    max-height: 30px;
+	}
+
+	.navbar-inverse .navbar-nav > li > a, .dropdown-menu > li > a{
+		text-align: center;
+		padding: 15px 10px;
+        border-bottom: 0;
+	}
+
+	.navbar-inverse .navbar-nav > li  {
+		border-bottom: 1px solid #bae0da;
+	}
+
+	.navbar-inverse .navbar-nav > li > a:hover ,.dropdown-menu > li > a:hover{
+        border-bottom: 0;
+    }
+
+    .navbar-social-media{
+		display: none;
+	}
+
+    .navbar-social-media-phone{
+    	display: inline-block;
+    	float: right;
+    }
+
+    .navbar-social-media-phone li{
+    	list-style: none;
+    	display: inline-block;
+    	margin-top: 12px!important
+    }
+
+    .navbar-social-media-phone li a{
+    	color: #FFF;  
+	    font-size: 17px!important;	
+		padding: 23px 10px!important;
+		text-decoration: none;
+    }
+
+    .footer{
+        background: #9CD2CA;
+    }
+
+    .img-trabaja img{
+        width: 95%;
+    }
+
+    .justify-footer{
+        text-align: left;
+    }
+
+    .con-footer{
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .dropdown-menu {
+        display: block;
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+
+    }
+
+    .dropdown-toggle {
+        display: none!important;
+    }
+
+    .dropdown-menu > li{
+        border-bottom: 1px solid #bae0da;
+    }
+
+    .dropdown-menu > li > a {
+        max-width: 767px;
+        outline: 0;
+
+    }
+}
+
+
+@media screen and (max-width: 459px) {
+	.navbar-social-media-phone li a{
+    	font-size: 12px!important;	
+		padding: 20px 10px!important;
+
+    }
+
+    .logo-custom {
+	    max-height: 23px;
+	}
+
+    
+
+}
+
+
+@media screen and (max-width: 389px) {
+	.navbar-social-media-phone{
+        font-size: 1px!important;
+        padding: 3px 3px!important;
+        display: inline-block;
+
+    }    
+}
+
+@media screen and (max-width: 344px) {
+    .navbar-social-media-phone{
+    } 
+    .logo-custom {
+        max-height: 15px;
+    }   
+}
+
+.navbar-fixed-top .navbar-collapse{
+  max-height: 100%;
+}

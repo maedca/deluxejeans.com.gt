@@ -1,0 +1,145 @@
+
+.artic1{
+    margin: 0;
+}
+#fig_1, #fig_2{
+    vertical-align: top;
+    display: inline-block;
+    width: 48%;
+}
+#fig_1 img, #fig_2 img{
+    width: 100%;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(171, 173, 175, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(152, 153, 154, 0.6);
+}
+#fig_1{
+    margin-right: 2%;
+}
+#fig_3, #fig_4{
+    margin-top: 1em;
+    vertical-align: top;
+    display: inline-block;
+    width: 48%;
+}
+#fig_3 img, #fig_4 img{
+    width: 100%;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(171, 173, 175, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(152, 153, 154, 0.6);
+}
+#fig_3{
+    margin-right: 2%;
+}
+.artic1:last-child{
+    padding: 0 0 1.5em 0;
+}
+.relative{
+    position: relative;
+    z-index: 0;
+}
+.absolute{
+    position: absolute;
+    width: 21.5%;
+    z-index: 1;
+    right: 11.2%;
+    margin-top: -0.68%;
+    max-width: 250px;
+}
+@media screen and (max-width: 1350px){
+    #galeria{
+        height: 90%;
+    }
+    .artic1{
+        padding-top: ;
+    }
+}
+@media screen and (max-width: 1300px){
+    .absolute{
+        width: 21.5%;
+        right: 11.2%;
+        margin-top: -0.70%;
+    }
+}
+@media screen and (max-width: 1240px){
+    #galeria{
+        width: 98.5%;
+    }
+    .marco{
+        margin: 0 5%;
+    }
+    .artic1{
+        margin: 0 5%;
+    }
+    .top{
+        padding-top: 2%;
+    }
+    .absolute{
+        width: 25.5%;
+        right: 4.4%;
+        margin-top: -0.70%;
+    }
+}
+@media screen and (min-width: 1130px){
+    #galeria{
+        height: ;
+    }
+}
+@media screen and (max-width: 1050px){
+    #galeria{
+        height: 70%;
+    }
+    section{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 750px){
+    #galeria{
+        height: 55%;
+    }
+    section{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 700px){
+    #galeria{
+        height: 50%;
+    }
+    section{
+        margin: 0;
+    }
+} 
+@media screen and (max-width: 600px){
+    #galeria{
+        height: 45%;
+    }
+    section{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 500px){
+    #fig_1, #fig_2, #fig_3, #fig_4{
+        vertical-align: left;
+        display: block;
+        width: 100%;
+    }
+    #fig_2{
+        margin-top: 1em;
+    }
+    .absolute{
+        width: 53.5%;
+        left: 44%;
+        margin-top: 1.2%;
+    }
+
+    #galeria .absolute{
+        width: 50%;
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 400px){
+    #galeria{
+        height: 30%;
+    }
+    section{
+        margin: 0;
+    }
+}
